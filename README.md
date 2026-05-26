@@ -1,2 +1,39 @@
-# Semblance
-this is my Virtual assistant started from scratch and using some open source code from git and every where else more like siri, cortana or Google assistant but more 
+# Semblance Project
+## Introduction
+The Semblance project is a prototype that demonstrates the integration of AI with a chat interface.
+## Key Features
+- AI-powered chat interface
+- Customizable chat screen background color
+- Customizable user and avatar chat bubble background colors
+- Customizable input box and send button colors
+## Tech Stack
+- HTML
+- iframe integration with external AI chat service
+## Installation
+To install and run the project, simply open the index.html file in a web browser.
+## Usage
+- Open the index.html file in a web browser
+- Interact with the AI chat interface
+## Environment Variables
+No environment variables are required for this project.
+## Code
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe height="700px" allow="camera; microphone; fullscreen" src="https://trulience.com/avatar/2235809122990571858?&chatScreenBGColor=#e7e7e7&userChatBubbleBGColor=#ff6200&avatarChatBubbleBGColor=#000000&userChatBubbleBorderColor=none&avatarChatBubbleBorderColor=none&userChatBubbleTextColor=white&avatarChatBubbleTextColor=white&inputBoxBGColor=#fff&inputBoxBorderColor=#fff&inputBoxTextColor=inherit&sendButtonBGColor=white&sendButtonArrowColor=#000000&sendButtonBorderColor=none&borderColorBetweenInputAndScreen=#f0f0f0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Template generated for and only for Angus </h1>
+    <h3>I am sorry for the Shitty design no existant design</h3>
+    <h2>What\'s important is that i wanted to demonstrate the AI and it\'s intergration</h2>
+    <p>This is a prototype i wished to do so long i still need to work on the backend to be perfect and then make the appearance
+        wow,for now i want you to give me feed back if it good or bad or any comment yyou have
+    </p>
+</body>
+</html>
+```
